@@ -4,6 +4,9 @@ This repository contains implementation of Naive Bayes algorithm for classifying
 We have implemented Naive Bayes Classifier for classification of DBPedia documents into one of movies classes, in local
 Java and also the Hadoop Map Reduce framework, and analysed for its scalability characteristics. Naive Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression, which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.
 
+1. Code folder contains Naive Bayes code.
+2. Log folder contain controller and output log file for local as well as mapreduce implementation for different combinations of reducer for training and testing.
+
 # Create Jar File 
 1. First run command "mvn clean install" to generate jar file.
 
