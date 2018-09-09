@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Assignment1-DS222</groupId>
+	<artifactId>Assignment1-DS222</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Assignment1-DS222</name>
+	<description>Assignment1-DS222 MLLD</description>
+
+	<dependencies>
+		<!-- <dependency> <groupId>commons-validator</groupId> <artifactId>commons-validator</artifactId> 
+			<version>1.6</version> <scope>compile</scope> </dependency> -->
+
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client</artifactId>
+			<version>2.7.3</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+
+
+	<build>
+		<plugins>
+			<!-- Maven shade plug-in that creates uber JARs -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>2.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

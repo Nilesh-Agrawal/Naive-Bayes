@@ -1,0 +1,5 @@
+Start Time : 17967465999707964
+No of Successful Classification: 22270
+No of UnSuccessful Classification: 7727
+Total Accuracy: 0.74240756
+End Time : 17967480263066286
