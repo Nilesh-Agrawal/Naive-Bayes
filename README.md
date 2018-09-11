@@ -7,7 +7,7 @@ Java and also the Hadoop Map Reduce framework, and analysed for its scalability 
 1. Code folder contains Naive Bayes code.
 2. Log folder contain controller and output log file for local as well as mapreduce implementation for different combinations of reducer for training and testing.
 
-# Create Jar File 
+## Create Jar File 
 1. First run below command to generate jar file.
 ~~~~~~~
 mvn clean install
